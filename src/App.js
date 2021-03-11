@@ -6,7 +6,7 @@ function App() {
   return (
     <main className="form-signin">
       <form>
-        <img className="mb-4" src={image} alt="" width="70" height="70">
+        <img className="mb-4" src={image} alt="image" width="70" height="70">
         <h1 >Please sign in</h1>
         <label for="inputEmail" className="visually-hidden">Email address</label>
         <input type="email" id="inputEmail" className="form-control" placeholder="Email address" required autofocus>
